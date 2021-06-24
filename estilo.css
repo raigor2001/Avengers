@@ -1,0 +1,150 @@
+@font-face {
+    font-family: ChelseaMarket;
+    src: url(fuentes/ChelseaMarket-Regular.ttf);
+}
+
+@font-face {
+    font-family: Brawler;
+    src: url(fuentes/Brawler-Regular.ttf);
+}
+
+/*-------------------------------------------------*/
+
+p{
+    font-family: Brawler;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#ae{
+    background-color: greenyellow;
+}
+
+body{
+    border: 2px solid black;
+    background-image: url(imagenes/avengers_united.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: ChelseaMarket;
+    text-align: right;
+    margin: -48px 10px 35px 0;
+}
+
+#pys{
+    font-family: ChelseaMarket;
+    text-align: left;
+    margin: 10px;
+}
+
+/*-------------------------------------------------*/
+
+#the{
+    color: blue;
+}
+
+#avengers{
+    color: red;
+}
+
+/*-------------------------------------------------*/
+
+#menu_1 li{
+    list-style-type: none;
+    display: inline;
+}
+
+#menu_1{
+    margin: 20px 0 -20px 10px;
+}
+
+#menu_1 a{
+    text-decoration: none;
+    background-color: rgb(218, 62, 62);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;
+    margin: -5px 0 0 -4px;
+    transition: linear 0.5s;
+}
+
+#menu_1 a:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+/*-------------------------------------------------*/
+
+#vengadores_unidos{
+    border-radius: 15%;
+    float: left;
+    margin: -2px 15px 0 20px;
+}
+
+#logo_vengadores{
+    border-radius: 15%;
+    float: right;
+    margin: -2px 15px 0 20px;
+}
+
+/*-------------------------------------------------*/
+
+#menu_2 li{
+    list-style-type: none;
+    display: inline;
+}
+
+#menu_2 a{
+    text-decoration: none;
+    background-color: rgb(25, 74, 236);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px;
+    margin: 5px 3px 0 2px;
+    border-radius: 20px;
+}
+
+#menu_2 a:hover{
+    background-color: chartreuse;
+    transition: 0.5s;
+}
+
+#menu_2{
+    float: right;
+}
+
+/*-------------2px 0 0 2px;------------------------------------*/
+
+.figure1{
+    border: 8px solid black;
+    margin: 0 410px;
+    text-align: center;
+    font-size: 10;
+}
+
+figcaption{
+    font-size: 18px;
+    background-color: chartreuse;
+    margin: -5px 0 0 0;
+}
+
+#thor {
+    margin: 0 -1px 0 -11px;
+}
+
+#hulk {
+    margin: 0 -1px 0 -3px;
+}
+
+#iron_man {
+    margin: 0px -11px 0px -3px;
+}
+
+#lista_ordenada{
+    font-size: 18px;
+}
+
